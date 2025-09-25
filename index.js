@@ -97,7 +97,7 @@ app.get("/", (req, res) => {
 // GET ALL PRODUCTS
 async function getAllProducts() {
   try {
-    const productsData = await Product.find();
+    const productsData = await Product.find().populate("category");
     return productsData;
   } catch (error) {
     console, log("Error occured in DB while querying products: ", error);
@@ -119,7 +119,7 @@ app.get("/products", async (req, res) => {
 // GET PRODUCT BY ID
 async function getProductById(productId) {
   try {
-    const productData = await Product.findById(productId);
+    const productData = await Product.findById(productId).populate("category");
     return productData;
   } catch (error) {
     console.log("Error in DB while fetching product by Id: ", error);
