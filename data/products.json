@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Samsung Galaxy S24",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": "Flagship Samsung phone with AMOLED display and triple camera.",
+    "price": 69999,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "iPhone 15 Pro",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": "Latest Apple iPhone 15 Pro with advanced camera and A17 chip.",
+    "price": 119999,
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Apple MacBook Pro 14-inch",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": "Apple M2 MacBook Pro with Retina display and 16GB RAM.",
+    "price": 189999,
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Dell XPS 13",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": "Powerful Dell XPS 13 with InfinityEdge display and 11th Gen Intel.",
+    "price": 129999,
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Sony WH-1000XM4",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": "Leading industry noise-canceling headphones.",
+    "price": 24999,
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1518440727259-7a91bd0c0099?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Bose QuietComfort 45",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": "Bose QC45 noise-canceling, wireless headphones.",
+    "price": 28000,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "JBL Flip 6",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": "Portable Bluetooth speaker with powerful bass and waterproof design.",
+    "price": 8499,
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1503602642458-232111445657?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Marshall Stanmore II",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": "Classic Marshall sound with modern functionality.",
+    "price": 14999,
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1523475496153-3c7a7ff4e145?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Apple iPad Pro",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": "Powerful iPad Pro with Liquid Retina display and M1 chip.",
+    "price": 89999,
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Tab S8",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": "Samsung's flagship tablet with S-Pen support and AMOLED display.",
+    "price": 69999,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b82b2ae?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "OnePlus 12",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": "High performance OnePlus flagship smartphone.",
+    "price": 59999,
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "HP Spectre x360",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": "HP convertible laptop with touchscreen and powerful specs.",
+    "price": 139999,
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1527434004070-47e0604b6fa9?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Beats Studio3 Wireless",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": "Beats Studio3 wireless over-ear headphones with noise canceling.",
+    "price": 19999,
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Sonos One SL",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": "Compact smart speaker with rich sound.",
+    "price": 12999,
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Amazon Fire HD 10",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": "Affordable 10-inch tablet with Alexa hands-free.",
+    "price": 15999,
+    "rating": 4.1,
+    "images": [
+      "https://images.unsplash.com/photo-1534081333815-ae5019106622?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Google Pixel 8",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": "Google’s latest Pixel phone with Tensor G3 chip.",
+    "price": 49999,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1512499617640-c2f9990b9de0?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Asus ROG Zephyrus",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": "Gaming laptop with high refresh rate display.",
+    "price": 149999,
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Sennheiser HD 450BT",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": "Wireless noise-canceling headphones with long battery life.",
+    "price": 15999,
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1525097487452-6278ff080c31?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Bose SoundLink Revolve+",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": "Portable Bluetooth speaker with deep 360-degree sound.",
+    "price": 14999,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1470115636492-6d34e1be1896?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Lenovo Tab P11 Pro",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": "Lenovo's 11.5-inch premium tablet with OLED screen.",
+    "price": 44999,
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1533227268428-f2013c6e2b2e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "OnePlus Nord N30",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": "Affordable 5G smartphone with smooth display.",
+    "price": 15999,
+    "rating": 4.1,
+    "images": [
+      "https://images.unsplash.com/photo-1527694224007-99cd727c2f5e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Microsoft Surface Laptop 5",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": "Sleek laptop with touchscreen and improved hardware.",
+    "price": 109999,
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Skullcandy Crusher Evo",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": "Wireless headphones with personalized sound experience.",
+    "price": 11999,
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "UE Boom 3",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": "Rugged portable Bluetooth speaker with 360-degree sound.",
+    "price": 9999,
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Tab S7",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": "High-end Android tablet with S Pen support.",
+    "price": 52999,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+    ]
+  }
+]
