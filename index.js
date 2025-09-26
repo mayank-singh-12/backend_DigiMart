@@ -49,6 +49,7 @@ async function seedData() {
   //       console.log(error);
   //     }
   //   }
+
   //   ADDING CATEGORIES
   //   for (const category of categoriesData) {
   //     try {
@@ -61,6 +62,7 @@ async function seedData() {
   //       console.log(error);
   //     }
   //   }
+
   // for (const product of productsData) {
   //   try {
   //     const newProduct = new Product({
@@ -110,7 +112,7 @@ app.get("/products", async (req, res) => {
     if (!products) {
       return res.status(404).json({ error: "No products found!" });
     }
-    res.status(200).json({ data: products });
+    res.status(200).json({ products });
   } catch {
     res.status(500).json({ error });
   }
@@ -131,7 +133,7 @@ app.get("/products/:productId", async (req, res) => {
     const productId = req.params.productId;
     const product = await getProductById(productId);
     if (!product) return res.status(404).json({ error: "Product not found!" });
-    res.status(200).json({ data: product });
+    res.status(200).json({ product });
   } catch {
     res.status(500).json({ error: "Unable to fetch prdouct by Id." });
   }
@@ -152,7 +154,7 @@ app.get("/categories", async (req, res) => {
     const categories = await getAllCategories();
     if (categories.length === 0)
       return res.status(404).json({ error: "No Categories Found!" });
-    res.status(200).json({ data: categories });
+    res.status(200).json({ categories });
   } catch {
     res.status(500).json({ error: "Unable to fetch categories!" });
   }
@@ -176,7 +178,7 @@ app.get("/categories/:categoryId", async (req, res) => {
     const category = await getCategoryById(categoryId);
     if (!category)
       return res.status(404).json({ error: "Cartegory not found!" });
-    res.status(200).json({ data: category });
+    res.status(200).json({ category });
   } catch {
     res.status(500).json({ error: "Unable to find category By Id!" });
   }
