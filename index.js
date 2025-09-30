@@ -70,9 +70,14 @@ async function seedData() {
   //       category: product.category,
   //       description: product.description,
   //       price: product.price,
+  //       discount: product.discount,
+  //       models: product.models,
   //       rating: product.rating,
   //       images: product.images,
   //     });
+  //     console.log(product.category);
+  //     console.log(newProduct);
+
   //     await newProduct.save();
   //     console.log("Product Saved!");
   //   } catch (error) {
@@ -86,7 +91,7 @@ async function seedData() {
   }
 }
 
-// seedData();
+seedData();
 
 app.get("/", (req, res) => {
   try {

@@ -1,252 +1,382 @@
 [
   {
-    "title": "Samsung Galaxy S24",
+    "title": "iPhone 15 Pro Max",
     "category": ["68d4151eef6ce3e019ec4745"],
-    "description": "Flagship Samsung phone with AMOLED display and triple camera.",
-    "price": 69999,
-    "rating": 4.5,
-    "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "iPhone 15 Pro",
-    "category": ["68d4151eef6ce3e019ec4745"],
-    "description": "Latest Apple iPhone 15 Pro with advanced camera and A17 chip.",
-    "price": 119999,
-    "rating": 4.7,
-    "images": [
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Apple MacBook Pro 14-inch",
-    "category": ["68d4151eef6ce3e019ec4747"],
-    "description": "Apple M2 MacBook Pro with Retina display and 16GB RAM.",
-    "price": 189999,
+    "description": [
+      "Titanium build with A17 Pro chip",
+      "Pro camera with 5x tetraprism zoom",
+      "USB‑C and ProMotion display"
+    ],
+    "price": 1199,
+    "discount": 10,
+    "models": { "storage": ["256GB","512GB","1TB"], "color": ["Natural","Blue","White"] },
     "rating": 4.8,
     "images": [
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Dell XPS 13",
-    "category": ["68d4151eef6ce3e019ec4747"],
-    "description": "Powerful Dell XPS 13 with InfinityEdge display and 11th Gen Intel.",
-    "price": 129999,
+    "title": "Sony WH-1000XM5",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": ["Industry‑leading ANC","30‑hour battery","LDAC and multipoint"],
+    "price": 399,
+    "discount": 20,
+    "models": { "storage": [], "color": ["Black","Silver","Midnight Blue"] },
     "rating": 4.6,
     "images": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Sony WH-1000XM4",
-    "category": ["68d4151eef6ce3e019ec4748"],
-    "description": "Leading industry noise-canceling headphones.",
-    "price": 24999,
-    "rating": 4.7,
+    "title": "Dell XPS 13 Plus",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["InfinityEdge design","Intel Core","OLED option"],
+    "price": 1299,
+    "discount": 22,
+    "models": { "storage": ["512GB","1TB"], "color": ["Platinum","Graphite"] },
+    "rating": 4.2,
     "images": [
-      "https://images.unsplash.com/photo-1518440727259-7a91bd0c0099?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Bose QuietComfort 45",
-    "category": ["68d4151eef6ce3e019ec4748"],
-    "description": "Bose QC45 noise-canceling, wireless headphones.",
-    "price": 28000,
-    "rating": 4.5,
-    "images": [
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "JBL Flip 6",
+    "title": "Sonos One Gen 2",
     "category": ["68d4151eef6ce3e019ec4749"],
-    "description": "Portable Bluetooth speaker with powerful bass and waterproof design.",
-    "price": 8499,
+    "description": ["Smart voice control","Rich room sound","Multiroom"],
+    "price": 219,
+    "discount": 18,
+    "models": { "storage": [], "color": ["Black","White"] },
     "rating": 4.3,
     "images": [
-      "https://images.unsplash.com/photo-1503602642458-232111445657?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "iPad Pro 12.9‑inch M2",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": ["M2 with XDR","Pencil hover","LiDAR and Pro cameras"],
+    "price": 1099,
+    "discount": 12,
+    "models": { "storage": ["128GB Wi‑Fi","256GB Wi‑Fi","512GB Cellular"], "color": ["Silver","Space Gray"] },
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy S24 Ultra",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": [
+      "Built‑in S Pen for productivity",
+      "200MP camera with AI tools",
+      "Dynamic AMOLED 2X 120Hz display"
+    ],
+    "price": 1299,
+    "discount": 15,
+    "models": { "storage": ["256GB","512GB","1TB"], "color": ["Black","Gray","Violet"] },
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Bose QuietComfort Ultra",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": ["World‑class ANC","Immersive audio","Beamforming mics"],
+    "price": 429,
+    "discount": 12,
+    "models": { "storage": [], "color": ["Black","White Smoke"] },
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "MacBook Pro 16‑inch M3",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["M3 Pro for pros","Liquid Retina XDR","Up to 22‑hour battery"],
+    "price": 2499,
+    "discount": 8,
+    "models": { "storage": ["512GB","1TB"], "color": ["Space Black","Silver"] },
+    "rating": 4.9,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "JBL Charge 5",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": ["Portable Bluetooth","IP67 rating","20 hours playtime"],
+    "price": 179,
+    "discount": 25,
+    "models": { "storage": [], "color": ["Black","Blue","Red"] },
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Tab S9 Ultra",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": ["14.6‑inch AMOLED 2X","S Pen included","DeX productivity"],
+    "price": 1199,
+    "discount": 15,
+    "models": { "storage": ["256GB","512GB"], "color": ["Beige","Graphite"] },
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Google Pixel 9 Pro",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": ["Tensor chip with advanced AI","Computational photography leader","7 years updates"],
+    "price": 1099,
+    "discount": 12,
+    "models": { "storage": ["128GB","256GB"], "color": ["Obsidian","Porcelain"] },
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Audio‑Technica ATH‑M50xBT2",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": ["M50x sound wireless","Low latency","Dual‑pairing"],
+    "price": 199,
+    "discount": 19,
+    "models": { "storage": [], "color": ["Black"] },
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "ASUS ROG Zephyrus G15",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["Slim gaming power","High refresh display","Vapor chamber cooling"],
+    "price": 1799,
+    "discount": 16,
+    "models": { "storage": ["1TB"], "color": ["Moonlight White"] },
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
     "title": "Marshall Stanmore II",
     "category": ["68d4151eef6ce3e019ec4749"],
-    "description": "Classic Marshall sound with modern functionality.",
-    "price": 14999,
-    "rating": 4.6,
-    "images": [
-      "https://images.unsplash.com/photo-1523475496153-3c7a7ff4e145?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Apple iPad Pro",
-    "category": ["68d4151eef6ce3e019ec4746"],
-    "description": "Powerful iPad Pro with Liquid Retina display and M1 chip.",
-    "price": 89999,
-    "rating": 4.8,
-    "images": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Samsung Galaxy Tab S8",
-    "category": ["68d4151eef6ce3e019ec4746"],
-    "description": "Samsung's flagship tablet with S-Pen support and AMOLED display.",
-    "price": 69999,
+    "description": ["Iconic design","Bluetooth 5.0 aptX","Analog tone controls"],
+    "price": 379,
+    "discount": 12,
+    "models": { "storage": [], "color": ["Black","Cream"] },
     "rating": 4.5,
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b82b2ae?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
     "title": "OnePlus 12",
     "category": ["68d4151eef6ce3e019ec4745"],
-    "description": "High performance OnePlus flagship smartphone.",
-    "price": 59999,
-    "rating": 4.4,
-    "images": [
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "HP Spectre x360",
-    "category": ["68d4151eef6ce3e019ec4747"],
-    "description": "HP convertible laptop with touchscreen and powerful specs.",
-    "price": 139999,
-    "rating": 4.6,
-    "images": [
-      "https://images.unsplash.com/photo-1527434004070-47e0604b6fa9?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Beats Studio3 Wireless",
-    "category": ["68d4151eef6ce3e019ec4748"],
-    "description": "Beats Studio3 wireless over-ear headphones with noise canceling.",
-    "price": 19999,
-    "rating": 4.3,
-    "images": [
-      "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Sonos One SL",
-    "category": ["68d4151eef6ce3e019ec4749"],
-    "description": "Compact smart speaker with rich sound.",
-    "price": 12999,
-    "rating": 4.4,
-    "images": [
-      "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Amazon Fire HD 10",
-    "category": ["68d4151eef6ce3e019ec4746"],
-    "description": "Affordable 10-inch tablet with Alexa hands-free.",
-    "price": 15999,
-    "rating": 4.1,
-    "images": [
-      "https://images.unsplash.com/photo-1534081333815-ae5019106622?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Google Pixel 8",
-    "category": ["68d4151eef6ce3e019ec4745"],
-    "description": "Google’s latest Pixel phone with Tensor G3 chip.",
-    "price": 49999,
+    "description": ["Snapdragon flagship performance","Hasselblad triple camera","120Hz LTPO display"],
+    "price": 799,
+    "discount": 18,
+    "models": { "storage": ["256GB","512GB"], "color": ["Black","Green"] },
     "rating": 4.5,
     "images": [
-      "https://images.unsplash.com/photo-1512499617640-c2f9990b9de0?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Asus ROG Zephyrus",
-    "category": ["68d4151eef6ce3e019ec4747"],
-    "description": "Gaming laptop with high refresh rate display.",
-    "price": 149999,
-    "rating": 4.7,
-    "images": [
-      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Sennheiser HD 450BT",
+    "title": "Beats Studio Pro",
     "category": ["68d4151eef6ce3e019ec4748"],
-    "description": "Wireless noise-canceling headphones with long battery life.",
-    "price": 15999,
-    "rating": 4.3,
+    "description": ["ANC with transparency","USB‑C lossless","Cross‑platform"],
+    "price": 349,
+    "discount": 15,
+    "models": { "storage": [], "color": ["Black","Navy"] },
+    "rating": 4.0,
     "images": [
-      "https://images.unsplash.com/photo-1525097487452-6278ff080c31?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Bose SoundLink Revolve+",
-    "category": ["68d4151eef6ce3e019ec4749"],
-    "description": "Portable Bluetooth speaker with deep 360-degree sound.",
-    "price": 14999,
-    "rating": 4.5,
-    "images": [
-      "https://images.unsplash.com/photo-1470115636492-6d34e1be1896?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Lenovo Tab P11 Pro",
-    "category": ["68d4151eef6ce3e019ec4746"],
-    "description": "Lenovo's 11.5-inch premium tablet with OLED screen.",
-    "price": 44999,
+    "title": "Razer Blade 15",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["CNC aluminum body","144Hz+ displays","Advanced cooling"],
+    "price": 2199,
+    "discount": 10,
+    "models": { "storage": ["1TB"], "color": ["Black"] },
     "rating": 4.4,
     "images": [
-      "https://images.unsplash.com/photo-1533227268428-f2013c6e2b2e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "OnePlus Nord N30",
-    "category": ["68d4151eef6ce3e019ec4745"],
-    "description": "Affordable 5G smartphone with smooth display.",
-    "price": 15999,
-    "rating": 4.1,
-    "images": [
-      "https://images.unsplash.com/photo-1527694224007-99cd727c2f5e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Microsoft Surface Laptop 5",
-    "category": ["68d4151eef6ce3e019ec4747"],
-    "description": "Sleek laptop with touchscreen and improved hardware.",
-    "price": 109999,
-    "rating": 4.6,
-    "images": [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
-    ]
-  },
-  {
-    "title": "Skullcandy Crusher Evo",
-    "category": ["68d4151eef6ce3e019ec4748"],
-    "description": "Wireless headphones with personalized sound experience.",
-    "price": 11999,
+    "title": "Amazon Echo Studio",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": ["3D audio with Atmos","Smart home hub","Alexa voice"],
+    "price": 199,
+    "discount": 15,
+    "models": { "storage": [], "color": ["Black"] },
     "rating": 4.2,
     "images": [
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Xiaomi 14 Pro",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": ["Leica optics with natural color","120W turbo charging","2K 120Hz AMOLED"],
+    "price": 899,
+    "discount": 20,
+    "models": { "storage": ["256GB","512GB"], "color": ["Black","Silver"] },
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Sony HT‑S200F",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": ["Compact soundbar","Built‑in subwoofer","HDMI ARC"],
+    "price": 199,
+    "discount": 19,
+    "models": { "storage": [], "color": ["Black"] },
+    "rating": 4.0,
+    "images": [
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Microsoft Surface Laptop 7",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["Copilot+ PC features","High‑res display","Premium build"],
+    "price": 1499,
+    "discount": 12,
+    "models": { "storage": ["512GB"], "color": ["Platinum"] },
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
     "title": "UE Boom 3",
     "category": ["68d4151eef6ce3e019ec4749"],
-    "description": "Rugged portable Bluetooth speaker with 360-degree sound.",
-    "price": 9999,
-    "rating": 4.3,
+    "description": ["360° sound","Floatable IP67","One‑touch playlists"],
+    "price": 149,
+    "discount": 20,
+    "models": { "storage": [], "color": ["Black","Blue"] },
+    "rating": 4.1,
     "images": [
-      "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
     ]
   },
   {
-    "title": "Samsung Galaxy Tab S7",
+    "title": "Samsung Galaxy A55 5G",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": ["Balanced performance and battery","Triple camera with OIS","IP rating"],
+    "price": 449,
+    "discount": 10,
+    "models": { "storage": ["128GB","256GB"], "color": ["Blue","Lime"] },
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "JBL Live 770NC",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": ["JBL Signature Sound","Ambient Aware","Long battery"],
+    "price": 199,
+    "discount": 22,
+    "models": { "storage": [], "color": ["Black","Blue"] },
+    "rating": 4.1,
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "LG Gram 16",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["Ultra‑light 16‑inch","Long battery","Great for travel"],
+    "price": 1399,
+    "discount": 19,
+    "models": { "storage": ["1TB"], "color": ["Black"] },
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Amazon Fire Max 11",
     "category": ["68d4151eef6ce3e019ec4746"],
-    "description": "High-end Android tablet with S Pen support.",
-    "price": 52999,
+    "description": ["Family tablet value","Aluminum build","Optional stylus/keyboard"],
+    "price": 229,
+    "discount": 25,
+    "models": { "storage": ["64GB","128GB"], "color": ["Gray"] },
+    "rating": 4.0,
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Nothing Phone (2a)",
+    "category": ["68d4151eef6ce3e019ec4745"],
+    "description": ["Glyph interface and clean OS","120Hz OLED display","All‑day battery"],
+    "price": 399,
+    "discount": 8,
+    "models": { "storage": ["128GB","256GB"], "color": ["White","Black"] },
+    "rating": 4.1,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Anker Soundcore Q45",
+    "category": ["68d4151eef6ce3e019ec4748"],
+    "description": ["Affordable ANC","LDAC support","Multi‑mode noise control"],
+    "price": 149,
+    "discount": 28,
+    "models": { "storage": [], "color": ["Black"] },
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "HP Spectre x360 14",
+    "category": ["68d4151eef6ce3e019ec4747"],
+    "description": ["2‑in‑1 with OLED","Premium build","Great pen support"],
+    "price": 1599,
+    "discount": 15,
+    "models": { "storage": ["1TB"], "color": ["Nightfall Black"] },
     "rating": 4.5,
     "images": [
-      "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=500"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Bose SoundLink Flex",
+    "category": ["68d4151eef6ce3e019ec4749"],
+    "description": ["PositionIQ tuning","Waterproof rugged","Clear calls"],
+    "price": 149,
+    "discount": 18,
+    "models": { "storage": [], "color": ["Black","Stone Blue"] },
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=500&fit=crop&crop=center"
+    ]
+  },
+  {
+    "title": "Xiaomi Pad 6",
+    "category": ["68d4151eef6ce3e019ec4746"],
+    "description": ["120Hz display","Snapdragon power","Great entertainment"],
+    "price": 349,
+    "discount": 22,
+    "models": { "storage": ["128GB","256GB"], "color": ["Blue","Gray"] },
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop&crop=center"
     ]
   }
 ]
