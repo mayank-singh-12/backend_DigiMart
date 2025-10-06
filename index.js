@@ -218,6 +218,53 @@ async function addProductToCategory(productId) {
   }
 }
 
+// SAVE NEW ORDER
+async function addNewOrder(orderDetails) {
+  try {
+    const newOrder = new Order(orderDetails);
+    const saveOrder = await newOrder.save();
+    return saveOrder;
+  } catch (error) {
+    console.log("Error in DB while adding new order: ", error);
+  }
+}
+
+app.post("/orders", async (req, res) => {
+  try {
+    const orderObj = req.body;
+    const savedOrder = await addNewOrder(orderObj);
+    if (!savedOrder) {
+      return res.status(400).json({ error: "Order validation failed." });
+    }
+    res
+      .status(200)
+      .json({ message: "Successfully added new order!", order: savedOrder });
+  } catch {
+    res.status(500).json({ error: "Unable to add new order." });
+  }
+});
+
+// GET ALL ORDERS
+async function getAllOrders() {
+  try {
+    const allOrders = await Order.find();
+    return allOrders;
+  } catch (error) {
+    console.log("Error in DB while fetching all orders: ", error);
+  }
+}
+
+app.get("/orders", async (req, res) => {
+  try {
+    const allOrders = await getAllOrders();
+    if (allOrders.length == 0)
+      return res.status(404).json({ error: "Orders not found." });
+    return res.status(200).json({ orders: allOrders });
+  } catch {
+    res.status(500).json({ error: "Unable to fetch all orders." });
+  }
+});
+
 const port = process.env.PORT;
 app.listen(port, () => {
   console.log("Server running on PORT:", port);
