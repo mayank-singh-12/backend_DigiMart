@@ -13,9 +13,6 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const fs = require("fs");
-const path = require("path");
-
 app.use(express.json());
 
 app.use(
@@ -23,75 +20,6 @@ app.use(
     origin: "*",
   })
 );
-
-const usersFilePath = path.join(__dirname, "data/users.json");
-const categoriesFilePath = path.join(__dirname, "data/category.json");
-const productsFilePath = path.join(__dirname, "data/products.json");
-
-const usersJson = fs.readFileSync(usersFilePath, "utf-8");
-const categoriesJson = fs.readFileSync(categoriesFilePath, "utf-8");
-const productsJson = fs.readFileSync(productsFilePath, "utf-8");
-
-const usersData = JSON.parse(usersJson);
-const categoriesData = JSON.parse(categoriesJson);
-const productsData = JSON.parse(productsJson);
-
-async function seedData() {
-  //   ADDING USERS
-  //   for (const user of usersData) {
-  //     try {
-  //       const newUser = new User({
-  //         name: user.name,
-  //         email: user.email,
-  //       });
-  //       newUser.save();
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-
-  //   ADDING CATEGORIES
-  //   for (const category of categoriesData) {
-  //     try {
-  //       const newCategory = new Category({
-  //         name: category.name,
-  //         products: category.products,
-  //       });
-  //       newCategory.save();
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-
-  // for (const product of productsData) {
-  //   try {
-  //     const newProduct = new Product({
-  //       title: product.title,
-  //       category: product.category,
-  //       description: product.description,
-  //       price: product.price,
-  //       discount: product.discount,
-  //       models: product.models,
-  //       rating: product.rating,
-  //       images: product.images,
-  //     });
-  //     console.log(product.category);
-  //     console.log(newProduct);
-
-  //     await newProduct.save();
-  //     console.log("Product Saved!");
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
-
-  const products = await Product.find();
-  for (const product of products) {
-    addProductToCategory(product._id);
-  }
-}
-
-seedData();
 
 app.get("/", (req, res) => {
   try {
@@ -188,35 +116,6 @@ app.get("/categories/:categoryId", async (req, res) => {
     res.status(500).json({ error: "Unable to find category By Id!" });
   }
 });
-
-// ADD PRODUCT TO CATEGORY
-async function addProductToCategory(productId) {
-  try {
-    const product = await Product.findById(productId);
-    if (!product) {
-      throw "Product not found.";
-    }
-    const productCategories = product.category;
-    for (const categoryId of productCategories) {
-      const categoryDoc = await Category.findById(categoryId);
-      if (!categoryDoc) {
-        console.log("Categroy not found.");
-        continue;
-      }
-      const categoryProducts = categoryDoc.products;
-      if (categoryProducts.includes(product._id)) {
-        console.log("Product already present in category.");
-        continue;
-      }
-      categoryDoc.products.push(product._id);
-      // console.log(categoryDoc);
-      await Category.findByIdAndUpdate(categoryId, categoryDoc);
-      console.log(`${categoryDoc.name} updated!`);
-    }
-  } catch (error) {
-    console.log(error);
-  }
-}
 
 // SAVE NEW ORDER
 async function addNewOrder(orderDetails) {
